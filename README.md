@@ -13,7 +13,7 @@ To run the script, provide the following three arguments:
 ### Example Command
 
 ```sh
-python3 Cipher_text_scanner.py "machine learning language:Python stars:>100" "installation" YOUR_GITHUB_TOKEN
+python3 gitnav.py "machine learning language:Python stars:>100" "installation" YOUR_GITHUB_TOKEN
 ```
 
 ## Notes
