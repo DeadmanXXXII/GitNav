@@ -24,4 +24,27 @@ python3 gitnav.py "machine learning language:Python stars:>100" "installation" Y
 
 This script is useful for analyzing multiple repositories to find specific information, such as installation instructions or contribution guidelines, in markdown files.
 
+### This will produce output like:
+
+```plaintext
+GitNav
+Built by DeadmanXXXII
+========================================
+Fetching page 1 of search results...
+Searching in repository: example-org/example-repo1
+Keyword 'installation' found in example-org/example-repo1/README.md
+Keyword 'installation' found in example-org/example-repo1/CONTRIBUTING.md
+
+Searching in repository: example-org/example-repo2
+README.md not found or error fetching for example-org/example-repo2: 404 Client Error: Not Found for url: https://api.github.com/repos/example-org/example-repo2/contents/README.md
+
+Fetching page 2 of search results...
+Searching in repository: example-org/example-repo4
+Keyword 'installation' found in example-org/example-repo4/README.md
+Keyword 'installation' found in example-org/example-repo4/CHANGELOG.md
+
+No more repositories found.
+========================================
+```
+
 ---
